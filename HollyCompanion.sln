@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HollyCompanion.Shared", "HollyCompanion\HollyCompanion.Shared\HollyCompanion.Shared.shproj", "{90090797-EB21-437A-8D77-0A1DEA6629E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollyCompanion.WindowsPhone", "HollyCompanion\HollyCompanion.WindowsPhone\HollyCompanion.WindowsPhone.csproj", "{C56EAF40-CBDC-4A88-A514-217FC9D85E76}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		HollyCompanion\HollyCompanion.Shared\HollyCompanion.Shared.projitems*{c56eaf40-cbdc-4a88-a514-217fc9d85e76}*SharedItemsImports = 4
+		HollyCompanion\HollyCompanion.Shared\HollyCompanion.Shared.projitems*{90090797-eb21-437a-8d77-0a1dea6629e3}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|ARM.Build.0 = Debug|ARM
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|x86.ActiveCfg = Debug|x86
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|x86.Build.0 = Debug|x86
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Debug|x86.Deploy.0 = Debug|x86
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|ARM.ActiveCfg = Release|ARM
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|ARM.Build.0 = Release|ARM
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|ARM.Deploy.0 = Release|ARM
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|x64.ActiveCfg = Release|Any CPU
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|x86.ActiveCfg = Release|x86
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|x86.Build.0 = Release|x86
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90090797-EB21-437A-8D77-0A1DEA6629E3} = {5A28C84D-5E5D-4639-B852-C73D9DADF81F}
+		{C56EAF40-CBDC-4A88-A514-217FC9D85E76} = {5A28C84D-5E5D-4639-B852-C73D9DADF81F}
+	EndGlobalSection
+EndGlobal

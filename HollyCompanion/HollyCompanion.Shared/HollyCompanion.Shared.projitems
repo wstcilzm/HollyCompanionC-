@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>90090797-eb21-437a-8d77-0a1dea6629e3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>HollyCompanion</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)BroadCastEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Utilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HttpConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IHolyRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IHolyResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemViewer.xaml.cs">
+      <DependentUpon>ItemViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)RequestLib.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResponseLib.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SampleData\AbstractListViewDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SampleData\DataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SampleData\LanguagesListViewItems.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UDPBroadCast.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UDPSocket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UDPSocketListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UserControls\ImageButton.xaml.cs">
+      <DependentUpon>ImageButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UserControls\NextButton.xaml.cs">
+      <DependentUpon>NextButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\ILogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\JsonSerialize.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)ItemViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UserControls\ImageButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UserControls\NextButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

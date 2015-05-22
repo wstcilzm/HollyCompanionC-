@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-DZHU</Machine>
+    <WindowsUser>v-dzhu</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>48348640-8c89-4694-9d88-f6d42628d1f0</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\HollyCompanion.WindowsPhone.exe">
+      <PackagePath>HollyCompanion.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\Home.png">
+      <PackagePath>Assets\Home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\MondayBlack.png">
+      <PackagePath>Assets\MondayBlack.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\Ready.png">
+      <PackagePath>Assets\Ready.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\Search-Find-32by32.png">
+      <PackagePath>Assets\Search-Find-32by32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\Weather.png">
+      <PackagePath>Assets\Weather.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\Wifi.png">
+      <PackagePath>Assets\Wifi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Assets\loading.gif">
+      <PackagePath>Assets\loading.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\Fonts\LiveSymbol.ttf">
+      <PackagePath>Fonts\LiveSymbol.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\HollyCompanion.WindowsPhone.xr.xml">
+      <PackagePath>HollyCompanion.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\ItemViewer.xbf">
+      <PackagePath>ItemViewer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\UserControls\ImageButton.xbf">
+      <PackagePath>UserControls\ImageButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\UserControls\NextButton.xbf">
+      <PackagePath>UserControls\NextButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\Address.xbf">
+      <PackagePath>Address.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\Allset.xbf">
+      <PackagePath>Allset.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\ChooseWifi.xbf">
+      <PackagePath>ChooseWifi.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\ConfigApp.xbf">
+      <PackagePath>ConfigApp.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\CreateAccount.xbf">
+      <PackagePath>CreateAccount.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\HeyCortana.xbf">
+      <PackagePath>HeyCortana.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\Home.xbf">
+      <PackagePath>Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\Household.xbf">
+      <PackagePath>Household.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\Login.xbf">
+      <PackagePath>Login.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\LoginInXiaoMi.xbf">
+      <PackagePath>LoginInXiaoMi.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\Ready.xbf">
+      <PackagePath>Ready.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\SelectHousehold.xbf">
+      <PackagePath>SelectHousehold.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\UserName.xbf">
+      <PackagePath>UserName.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\v-dzhu\Documents\HollyCompanion\HollyCompanion\HollyCompanion.WindowsPhone\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

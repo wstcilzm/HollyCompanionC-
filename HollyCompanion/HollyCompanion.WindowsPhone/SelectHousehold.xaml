@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="HollyCompanion.SelectHousehold"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HollyCompanion"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:control="using:HollyCompanion.UserControls"
+    mc:Ignorable="d"
+    Background="{ThemeResource PhoneForegroundBrush}">
+
+    <Grid Margin="30,60,30,30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="10*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock  TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Account created! Select your household services" FontWeight="Bold" FontFamily="Arial" FontSize="30"  Foreground="#FF3C3636"  Grid.Row="0" Grid.ColumnSpan="2" />
+        <TextBox  VerticalAlignment="Center" HorizontalAlignment="Left"   Grid.Row="2" Background="Black"  Width="300" Height="20" Grid.ColumnSpan="2" />
+        <CheckBox FontFamily="Global User Interface" HorizontalAlignment="Left"  VerticalAlignment="Center" BorderBrush="Black" BorderThickness="1" Grid.Column="0" Grid.Row="4" Background="Black"  RequestedTheme="Dark" IsChecked="True"/>
+        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Text="Calendar"  UseLayoutRounding="False" Grid.Column="1" Grid.Row="4" Foreground="#FF3C3636" FontSize="15" AllowDrop="True"/>
+        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Text="Manage your schedule and reminders"  UseLayoutRounding="False" Grid.Column="1" Grid.Row="5" Foreground="#FF3C3636" FontSize="13" AllowDrop="True"/>
+        <TextBox  VerticalAlignment="Center" HorizontalAlignment="Left"   Grid.Row="6" Background="Black"  Width="300" Height="20" Grid.ColumnSpan="2" />
+        <CheckBox FontFamily="Global User Interface" HorizontalAlignment="Left"  VerticalAlignment="Center" BorderBrush="Black" BorderThickness="1" Grid.Column="0" Grid.Row="7" Background="Black"  RequestedTheme="Dark" IsChecked="True"/>
+        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Text="Voice Calling"  UseLayoutRounding="False" Grid.Column="1" Grid.Row="7" Foreground="#FF3C3636" FontSize="15" AllowDrop="True"/>
+        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Text="Call friends and family using Skype"  UseLayoutRounding="False" Grid.Column="1" Grid.Row="8" Foreground="#FF3C3636" FontSize="13" AllowDrop="True"/>
+        <TextBox  VerticalAlignment="Center" HorizontalAlignment="Left"   Grid.Row="9" Background="Black"  Width="300" Height="20" Grid.ColumnSpan="2" />
+        <CheckBox FontFamily="Global User Interface" HorizontalAlignment="Left"  VerticalAlignment="Center" BorderBrush="Black" BorderThickness="1" Grid.Column="0" Grid.Row="10" Background="Black"  RequestedTheme="Dark" IsChecked="True"/>
+        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Text="Music"  UseLayoutRounding="False" Grid.Column="1" Grid.Row="10" Foreground="#FF3C3636" FontSize="15" AllowDrop="True"/>
+        <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Text="Unlimited music from Xbox Music"  UseLayoutRounding="False" Grid.Column="1" Grid.Row="11" Foreground="#FF3C3636" FontSize="13" AllowDrop="True"/>
+        <TextBox  VerticalAlignment="Center" HorizontalAlignment="Left"   Grid.Row="12" Background="Black"  Width="300" Height="20" Grid.ColumnSpan="2" />
+        <control:NextButton  Grid.ColumnSpan="2" Grid.Row="14"  Height="38" Width="110" BtnHeight="38" BtnWidth="110" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right"  Text="NEXT" FontFamily="Global User Interface" Tapped="btnNext_Click" Background="#FF595959" Foreground="White" >
+        </control:NextButton>
+    </Grid>
+</Page>
